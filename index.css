@@ -1,0 +1,110 @@
+h2 {
+    color:grey;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.bottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+    .left {
+        flex:1;
+        
+        img {
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 280px;
+            height: 400px;
+            border-radius: 10px;
+            object-fit: cover;
+            margin-bottom: 30px;
+          }
+    }
+    .left label {
+        color: #08A89E; /* Mengubah warna tulisan "UPLOAD IMAGE" menjadi hijau */
+        border: 2px solid #08A89E; /* Menambahkan border hijau pada label */
+        padding: 5px 10px; /* Memberikan padding pada label */
+        cursor: pointer; /* Mengubah cursor saat di atas label */
+        display: inline-block; /* Agar label memiliki lebar sesuai dengan kontennya */
+        margin-top: 15px;
+        margin-left: 30px; /* Memberikan jarak atas pada label */
+        text-align: left;
+        font-size: 10px;
+        border-radius: 8px;
+    }
+    
+    .left label .icon {
+        color:  #08A89E; /* Mengubah warna ikon menjadi hijau */
+        font-size: 15px;
+
+    }
+    .left p {
+        font-size: 12px;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        margin-left: 30px;
+
+    }
+
+    .right {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 30px;
+        form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            
+            .formInput {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                    color: #333;
+                }
+
+                input {
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    width: 100%;
+                }
+            }
+
+            button {
+                grid-column: span 2;
+                padding: 10px;
+                background-color: #08A89E;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: bold;
+                text-align: center;
+                max-width: 80px;
+
+                &:disabled {
+                    background-color: #ccc;
+                    cursor: not-allowed;
+                }
+            }
+        }
+    }
+   
+}
+
