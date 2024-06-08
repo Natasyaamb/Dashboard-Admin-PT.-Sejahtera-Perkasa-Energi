@@ -6,22 +6,18 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } f
 import { getDatabase, ref, set, push, onValue, child, update, remove } from "firebase/database";
 import { getStorage } from "firebase/storage";
 
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Your web app's Firebase configurations
 const firebaseConfig = {
-  apiKey: "AIzaSyBThnvHQZq85kt7Z74QbuFwCX_W2o5jF4U",
-  authDomain: "sistem-operasional-app.firebaseapp.com",
-  projectId: "sistem-operasional-app",
-  storageBucket: "sistem-operasional-app.appspot.com",
-  messagingSenderId: "200008673115",
-  appId: "1:200008673115:web:197dfc80e978369d0ddc7e",
-  measurementId: "G-QJ48EKCFZN"
-};
+    apiKey: "AIzaSyBp5RbdOowAzNy8du0_eDwVaE9wgC_0Wag",
+    authDomain: "pti-project-2.firebaseapp.com",
+    projectId: "pti-project-2",
+    storageBucket: "pti-project-2.appspot.com",
+    messagingSenderId: "630895776045",
+    appId: "1:630895776045:web:2ca4b7ab89675f471e03a4",
+    measurementId: "G-XWFQPV9ZM2"
+  };
 
-// Initialize Firebase
+// Initialize Firebase apps
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
@@ -29,7 +25,7 @@ const database = getDatabase(app);
 const db = getFirestore(app);
 const storage = getStorage(app);
 
-
+// Export all instances
 export{ 
   app,
   getDatabase,
