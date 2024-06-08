@@ -1,0 +1,31 @@
+/* NavBar.css */
+
+.custom-toggle-btn {
+  background-color: #39706B; /* Sesuaikan warna latar belakang */
+  border: none; /* Menghapus border default */
+  color: white; /* Warna teks */
+  padding: 10px 15px; /* Menambahkan padding */
+  font-size: 16px; /* Mengubah ukuran font */
+  border-radius: 5px; /* Menambahkan border radius */
+  transition: background-color 0.3s ease; /* Animasi transisi */
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.custom-toggle-btn:hover {
+  background-color: #6ba5ae; /* Warna latar belakang saat dihover */
+  color: #fff; /* Warna teks saat dihover */
+}
+.top-navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between; /* Mengatur ruang di antara komponen di dalam navbar */
+    align-items: center; /* Menyelaraskan konten secara vertikal */
+    padding: 10px 20px; /* Padding untuk memberikan ruang di sekitar konten */
+    background-color: #ffffff; /* Warna latar belakang */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk menambah kedalaman */
+  }
+  
+

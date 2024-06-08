@@ -1,0 +1,177 @@
+.datatable {
+    height: 600px;
+    padding: 20px;
+    
+    .datatableTitle{
+      width: 100%;
+      font-size: 24px;
+      color: gray;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      .link{
+        text-decoration: none;
+        color: green;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid green;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  
+    .cellWithImg {
+      display: flex;
+      align-items: center;
+  
+      .cellImg {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+    }
+  
+    .cellWithStatus {
+      padding: 5px;
+      border-radius: 5px;
+  
+      &.active {
+        background-color: rgba(0, 128, 0, 0.05);
+        color: green;
+      }
+      &.pending {
+        background-color: rgba(255, 217, 0, 0.05);
+        color: goldenrod;
+      }
+      &.passive {
+        background-color: rgba(255, 0, 0, 0.05);
+        color: crimson;
+      }
+    }
+  
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  
+      .viewButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+      }
+      
+      .buatsuratButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: teal;
+        border: 1px dotted teal;
+        cursor: pointer;
+      }
+    }
+  }
+  .statusContainer {
+    display: flex;
+    align-items: center;/* Mengatur posisi vertikal menjadi tengah */
+   /* Mengatur posisi horizontal menjadi tengah */
+    margin-top: 13px;
+    margin-bottom: 10px;
+    height: 40px;
+  }
+  
+  .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .available {
+    color: green;
+    border: 1px solid green;
+  }
+  
+  .unavailable {
+    color: red;
+    border: 1px solid red;
+  }
+
+  .datagrid .cellAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .datagrid .viewButton {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    height: 80%;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .datagrid .viewButton:hover {
+    background-color: rgba(105, 140, 191, 0.1);
+  }
+  
+  .datagrid .disabledButton {
+    color:#8acab3;
+    cursor: not-allowed;
+  }
+  .datagrid .statusContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .datagrid .cellWithStatus {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-align: center;
+    width: 50%; 
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+
+
+.cellWithStatus {
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.statusAvailable {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.statusUnavailable {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+
+.statusPending {
+  background-color: yellow;
+  color: black;
+  border: 1px solid yellow;
+}

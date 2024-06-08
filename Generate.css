@@ -1,0 +1,40 @@
+.logo {
+  width: 200px; /* Atur lebar gambar sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi gambar disesuaikan secara proporsional */
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Styling untuk header tabel */
+th {
+  background-color: #2980b9; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* Styling untuk sel-sel tabel */
+td {
+  background-color: #f1c40f; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 8px;
+  text-align: center;
+}
+
+/* Styling untuk baris ganjil */
+tr:nth-child(odd) {
+  background-color: #3498db; /* Warna latar belakang */
+}
+.small-input {
+  font-size: 12px;
+}
+.input-max-width {
+  max-width: 340px;
+  word-wrap: break-word;
+}
+.input-max-width-segel {
+  max-width: 80px;
+  word-wrap: break-word;
+}

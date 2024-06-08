@@ -1,0 +1,148 @@
+.gajisupir{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.gajisupir h2 {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.Container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(211, 217, 217);
+    flex: 1;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  input[type='number'] {
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: rgb(255, 254, 254);
+    width: 180px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self:self-start;  
+    margin-bottom: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  .base {
+    display: flex;
+    min-width: 700px;
+  }
+  .base div {
+  }
+  .content1 {
+    background-color: rgb(232, 236, 236);
+    width: 100px; /* Width of the square */
+    padding: 20px;
+    flex-grow: 1;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+  .content2 {
+    width: 40px; /* Width of the square */
+    height: 100px;
+    min-width: 40px;
+
+  }
+  .content3 {
+    background-color: rgb(232, 236, 236);
+    width: 100px; /* Width of the square */
+    padding: 20px;
+    flex-grow: 1;
+    flex-direction: column;
+    border-radius: 10px;
+    min-width: 350px;
+  }
+  .content3 input[type="file"] {
+  width: 100px; /* Adjust width as needed */
+  height: 30px; /* Adjust height as needed */
+  margin-right: 10px;/* Add margin for spacing */
+}
+
+.content3 img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+  .hasil {
+    height: 100px;
+    background-color: rgb(255, 254, 254);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border: 1px solid #ccc;
+  }
+
+
+  .gajisupir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content1, .content3 {
+  width: 45%;
+}
+
+.hitungButton, .saveButton {
+  margin-top: 20px;
+}
+
+.hasil {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 10px; /* Atur margin-top sesuai kebutuhan */
+}
+  
